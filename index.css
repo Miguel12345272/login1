@@ -1,0 +1,30 @@
+* {
+   font-family: sans-serif;
+}
+
+body {
+   background: linear-gradient(to bottom, rgb(28, 92, 209), rgb(188, 253, 255)); 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   min-height: 100vh;
+   align-items: center;
+}
+
+section.div {
+   border: 2.5px solid;
+   background-color: white;
+   transform: scale(100%);
+   border-radius: 10px;
+   overflow: hidden;
+   animation: Scale 0.5s ease forwards;
+}
+
+@keyframes Scale {
+   from {
+      scale: 100%;
+   }
+   to {
+      scale: 150%;
+   }
+}
